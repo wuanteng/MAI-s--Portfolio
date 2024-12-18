@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+.yuji-syuku-regular {
+    font-family: "Yuji Syuku", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+ul,li{
+    list-style: none;
+   
+}
+
+h1{
+    font-size: 6.5rem;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 6.5rem;
+    text-align: center;
+}
+ 
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    color: #ffffff;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(back.jpg) no-repeat;
+    background-size: cover;
+}
+
+#works{
+    background-color: blueviolet;
+}
+
+#works img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#works div{
+    margin:70px;
+    text-align: center;
+}
+
+.works-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about{
+    background-color: rgb(233, 120, 182);
+    }
+
+.about-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+ }
+
+ .prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.prof ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
